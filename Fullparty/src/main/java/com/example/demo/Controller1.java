@@ -25,5 +25,9 @@ public class Controller1 {
 	public String booking() {
 		return "res_step0";
 	}
+	@RequestMapping(value="/map.do")
+	public String map() {
+		return "Map";
+	}
 	
 }
